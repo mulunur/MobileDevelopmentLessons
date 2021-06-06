@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_calculator">
+
+    <fragment
+        android:id="@+id/nav_calculator"
+        android:name="ru.mirea.kartamysheva.mireaproject.ui.home.HomeFragment"
+        android:label="calculator"
+        tools:layout="@layout/fragment_calculator" />
+
+    <fragment
+        android:id="@+id/nav_webview"
+        android:name="ru.mirea.kartamysheva.mireaproject.ui.gallery.GalleryFragment"
+        android:label="webView"
+        tools:layout="@layout/fragment_webview" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="ru.mirea.kartamysheva.mireaproject.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+</navigation>
