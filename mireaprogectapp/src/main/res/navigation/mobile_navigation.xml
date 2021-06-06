@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="ru.mirea.kartamysheva.mireaprogectapp.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_calculator"
+        android:name="ru.mirea.kartamysheva.mireaprogectapp.ui.calculator.CalculatorFragment"
+        android:label="@string/menu_calculator"
+        tools:layout="@layout/fragment_calculator" />
+
+    <fragment
+        android:id="@+id/nav_webview"
+        android:name="ru.mirea.kartamysheva.mireaprogectapp.ui.webview.WebViewFragment"
+        android:label="@string/menu_webview"
+        tools:layout="@layout/fragment_webview" />
+    <fragment
+        android:id="@+id/nav_musicplayer"
+        android:name="ru.mirea.kartamysheva.mireaprogectapp.ui.music.MusicFragment"
+        android:label="Music Player"
+        tools:layout="@layout/music_fragment" />
+    <fragment
+        android:id="@+id/nav_sensorsoverview"
+        android:name="ru.mirea.kartamysheva.mireaprogectapp.ui.sensorsoverview.SensorsFragment"
+        android:label="Sensors overview"
+        tools:layout="@layout/fragment_sensors" />
+    <fragment
+        android:id="@+id/nav_recorder"
+        android:name="ru.mirea.kartamysheva.mireaprogectapp.ui.recorder.Recorder"
+        android:label="Recorder"
+        tools:layout="@layout/recorder_fragment" />
+    <fragment
+        android:id="@+id/nav_camera"
+        android:name="ru.mirea.kartamysheva.mireaprogectapp.ui.camera.Camera"
+        android:label="Camera"
+        tools:layout="@layout/camera_fragment" />
+    <fragment
+        android:id="@+id/nav_settings"
+        android:name="ru.mirea.kartamysheva.mireaprogectapp.ui.settings.SettingsFragment"
+        android:label="Settings"
+        tools:layout="@layout/settings_fragment" />
+    <fragment
+        android:id="@+id/nav_stories"
+        android:name="ru.mirea.kartamysheva.mireaprogectapp.ui.stories.StoriesFragment"
+        android:label="stories_fragment"
+        tools:layout="@layout/stories_fragment" />
+</navigation>
